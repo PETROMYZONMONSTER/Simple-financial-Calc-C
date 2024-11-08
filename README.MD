@@ -33,11 +33,20 @@ Também foi utilizado Goto, reiniciando o loop while quando ele for atingido den
 ## Modularização
 
 Todas as funções de cálculo foram divididas em módulos para manter o código mais organizado e claro. 
+> main.c
+>
+> simpleInterest.c
+>
+> compoundInterest.c
+>
+> Installments.c
+>
+> Savings.c
 
 ## Ponteiros
 
-O uso de ponteiros ajudou na organização do menu dentro do programa, evitando o uso repetido de scanf. 
+O uso de ponteiros ajudou na organização do menu dentro do programa, evitando o uso repetido de scanf e evitando o uso desnecessário de strtol em um código simples. 
 
 ## Entrada e saída 
 
-O usuário pode escolher a função desejada, e colocar os valores que achar adequado para testar a sua funcionalidade.
+O usuário pode escolher a função desejada, e colocar os valores que achar adequado para testar a sua funcionalidade em todas as funções, com textos claros explicando para o mesmo que tipo de valor ele irá receber.
