@@ -21,6 +21,11 @@ Reset:
         printf("Enter the amount of years for the balance to grow:\n");
         scanf("%d",&year);
 
+        if (contribution <= 0 || rate <=0 || year <= 0) {
+            printf("Invalid values, 0 or negative inputs aren't accepted.\n");
+            goto Reset;
+        }
+
         const float interest = value * (rate / 100);
         value += interest + contribution;
 

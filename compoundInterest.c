@@ -23,6 +23,11 @@ Reset:
     printf("Enter the compounded amount annually:\n");
     scanf("%f",&compound);
 
+      if (rate <=0 || year <= 0 || compound <= 0) {
+          printf("Invalid values, 0 or negative inputs aren't accepted.\n");
+          goto Reset;
+      }
+
     const float amount = value * pow((1 + rate/compound ),compound * year);
     const float interest = amount - value;
 

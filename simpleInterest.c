@@ -19,6 +19,11 @@ Reset:
     printf("Enter the amount of the days of the loan:\n");
     scanf("%d",&days);
 
+      if (rate <=0 || days <= 0) {
+          printf("Invalid values, 0 or negative inputs aren't accepted.\n");
+          goto Reset;
+      }
+
     const float interest = (value * rate * days) / year;
 
     printf("Your interest is: %.2f\n",interest);

@@ -19,6 +19,11 @@ Reset:
     printf("Enter the term in months:\n");
     scanf("%d",&month);
 
+      if (rate <=0 || month <= 0) {
+          printf("Invalid values, 0 or negative inputs aren't accepted.\n");
+          goto Reset;
+      }
+
     const float interest = pow(1+rate,month);
     const float payment = (value * interest * rate)/(interest - 1);
 
