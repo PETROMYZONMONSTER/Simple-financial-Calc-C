@@ -50,3 +50,6 @@ O uso de ponteiros ajudou na organização do menu dentro do programa, evitando 
 ## Entrada e saída 
 
 O usuário pode escolher a função desejada, e colocar os valores que achar adequado para testar a sua funcionalidade em todas as funções, com textos claros explicando para o mesmo que tipo de valor ele irá receber.
+
+## Diagrama de fluxo
+![diagrama](https://github.com/PETROMYZONMONSTER/Simple-financial-Calc-C/blob/2069cad6697a8d561d17ffed11de88cde5322d08/diagrama.png "diagrama")
