@@ -27,7 +27,7 @@ Nessa atividade, foi realizado uma calculadora financeira com 4 funções:
 
 ## Controle de fluxo e estruturas de controle
 
-Durante o código foi utilizada a estrutura While para manter controle sobre a entrada inicial do programa, verificando se o usuário colocou o input (0) que encerra o seu funcionamento.
+Durante o código foram utilizadas as estruturas While e If para manter controle sobre a entrada inicial do programa, verificando se o usuário colocou o input inválido (0) que encerra o seu funcionamento.
 Também foi utilizado Goto, reiniciando o loop while quando ele for atingido dentro da função.
 
 ## Modularização
